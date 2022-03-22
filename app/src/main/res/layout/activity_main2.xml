@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondolog"
+    tools:context=".MainActivity2"
+
+    >
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+
+        >
+    </ImageView>
+    <EditText
+        android:id="@+id/USER"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Usuario:"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/PASS"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_y="40dp"
+        android:hint="Contraseña:"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="150dp"
+        android:layout_y="690dp"
+        android:background="#03A9F4"
+        android:text="logear"
+        android:textStyle="bold"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="90dp"
+        android:background="#00D2D6D8"
+        android:onClick="Boton2"
+        android:text="regresar"
+        android:textColor="#00DBFB"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
